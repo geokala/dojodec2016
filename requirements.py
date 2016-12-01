@@ -1,2 +1,4 @@
 beautifulsoup4
 pillow
+requests
+textblob
