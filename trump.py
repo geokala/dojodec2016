@@ -1,8 +1,8 @@
 from PIL import Image, ImageFont, ImageDraw
 
-from tweets import get_tweets
+import tweets
 
-tweets = get_tweets()
+tweets = tweets.get_tweets()
 
 for i, tweet in enumerate(tweets):
 
